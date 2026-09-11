@@ -1,5 +1,8 @@
+mod associated_functions;
+
 fn main() {
     methods();
+    associated_functions::associated_functions();
 }
 
 fn methods(){
@@ -18,3 +21,6 @@ fn methods(){
 
     println!("The area of the rectangle is {} square pixels.", rect1.area());
 }
+
+
+
