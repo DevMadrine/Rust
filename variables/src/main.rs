@@ -1,4 +1,8 @@
+
 fn main() {
+    const TWO : u32 = 1 + 1;
+s
+    println!("{TWO}");
   let mut x = 5; //This is a mutable variable and can be changed
   println!("The value of x is: {}", x);
   x=6;
